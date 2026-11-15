@@ -1,0 +1,17 @@
+{
+  "pico": {
+    "question": "연구 질문을 한 문장으로",
+    "P": "대상", "I": "노출/중재", "C": "비교", "O": "결과(이 이름과 맞는 결과를 LLM이 주 결과로 고름)",
+    "query": "PubMed 검색식"
+  },
+  "search": {
+    "query": "PubMed 검색식 (2단계에 표시)",
+    "records_identified": 0,
+    "duplicates_removed": 0
+  },
+  "papers": [
+    {"pmid": "00000001", "included": true, "license": "CC BY"},
+    {"pmid": "00000002", "included": true, "license": "CC BY-NC"},
+    {"pmid": "00000003", "included": false, "exclude_reason": "메타분석 아님"}
+  ]
+}

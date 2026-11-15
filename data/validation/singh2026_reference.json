@@ -1,0 +1,1024 @@
+{
+  "source": {
+    "citation": "Singh B, et al. J Am Acad Child Adolesc Psychiatry. 2026;65(2):171-186.",
+    "doi": "10.1016/j.jaac.2025.04.007",
+    "license": "CC BY 4.0",
+    "used_for": "Reference standard for validating the app (not absolute truth: values were harmonised by the umbrella authors)"
+  },
+  "notes": [
+    "SMD signs were harmonised by the umbrella authors (negative = favours exercise); original reviews may report the opposite sign.",
+    "Table 1 k and n are review-wide totals, not per-analysis numbers.",
+    "AMSTAR item 15 'NA' in Table S3 = fewer than 10 studies; the original AMSTAR 2 uses NA only when no meta-analysis was done.",
+    "Liu 2024 lists depression in Table 1 but has no row in Figure 2.",
+    "PRISMA Figure 1 shows 6,056 identified and 25 included; the text says 7,614 identified and 21 included."
+  ],
+  "prisma_figure1": {
+    "identified": 6056,
+    "duplicates_removed": 677,
+    "screened": 5379,
+    "excluded_screening": 5342,
+    "sought": 37,
+    "assessed": 37,
+    "excluded_fulltext": 12,
+    "included_box": 25,
+    "included_text": 21
+  },
+  "reviews": [
+    {
+      "key": "Andermo 2020",
+      "ref_no": 43,
+      "doi": "10.1186/s40798-020-00254-x",
+      "journal": "Sports Med Open",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 31,
+        "n": 16089
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.01,
+          "ci_low": -0.2,
+          "ci_high": 0.19
+        }
+      ],
+      "fig3_anxiety_smd": {
+        "smd": -0.35,
+        "ci_low": -0.62,
+        "ci_high": -0.07
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Andermo",
+      "title": "School-related physical activity interventions and mental health among children: a systematic review and meta-analysis",
+      "year": 2020
+    },
+    {
+      "key": "Axelsdottir 2021",
+      "ref_no": 44,
+      "doi": "10.1111/camh.12438",
+      "journal": "Child Adolesc Ment Health",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 4,
+        "n": 159
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.59,
+          "ci_low": -1.08,
+          "ci_high": -0.1
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "Y",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "Y",
+        "15": "NA",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Moderate",
+      "first_author": "Axelsdottir",
+      "title": "Review: exercise for depression in children and adolescents - a systematic review and meta-analysis",
+      "year": 2021
+    },
+    {
+      "key": "Bailey 2018",
+      "ref_no": 45,
+      "doi": "10.1017/S0033291717002653",
+      "journal": "Psychol Med",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 17,
+        "n": 771
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.59,
+          "ci_low": -1.07,
+          "ci_high": -0.1
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "N",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Bailey",
+      "title": "Treating depression with physical activity in adolescents and young adults: a systematic review and meta-analysis of randomised controlled trials",
+      "year": 2018
+    },
+    {
+      "key": "Barahona-Fuentes 2021",
+      "ref_no": 46,
+      "doi": "10.3390/ijerph18189477",
+      "journal": "Int J Environ Res Public Health",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 9,
+        "n": 768
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": "Resistance exercise",
+          "smd": -1.61,
+          "ci_low": -2.54,
+          "ci_high": -0.68
+        },
+        {
+          "label": "Mixed-mode exercise",
+          "smd": -1.33,
+          "ci_low": -2.55,
+          "ci_high": -0.11
+        }
+      ],
+      "fig3_anxiety_smd": {
+        "smd": -1.75,
+        "ci_low": -3.02,
+        "ci_high": -0.48
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "N",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Barahona-Fuentes",
+      "title": "Effects of training with different modes of strength intervention on psychosocial disorders in adolescents: a systematic review and meta-analysis",
+      "year": 2021
+    },
+    {
+      "key": "Brown 2013",
+      "ref_no": 47,
+      "doi": "10.1007/s40279-012-0015-8",
+      "journal": "Sports Med",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 9,
+        "n": 581
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.26,
+          "ci_low": -0.43,
+          "ci_high": -0.08
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "N",
+        "3": "Y",
+        "4": "Y",
+        "5": "N",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Critically low",
+      "first_author": "Brown",
+      "title": "Physical activity interventions and depression in children and adolescents: a systematic review and meta-analysis",
+      "year": 2013
+    },
+    {
+      "key": "Carter 2016",
+      "ref_no": 48,
+      "doi": "10.1016/j.jaac.2016.04.016",
+      "journal": "J Am Acad Child Adolesc Psychiatry",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 11,
+        "n": 1449
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.48,
+          "ci_low": -0.86,
+          "ci_high": -0.09
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Carter",
+      "title": "The effect of exercise on depressive symptoms in adolescents: a systematic review and meta-analysis",
+      "year": 2016
+    },
+    {
+      "key": "Cerrillo-Urbina 2015",
+      "ref_no": 49,
+      "doi": "10.1111/cch.12255",
+      "journal": "Child Care Health Dev",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 8,
+        "n": 249
+      },
+      "outcomes": [
+        "anx"
+      ],
+      "fig2_depression_smd": [],
+      "fig3_anxiety_smd": {
+        "smd": -0.66,
+        "ci_low": -1.19,
+        "ci_high": -0.14
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "N",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Critically low",
+      "first_author": "Cerrillo-Urbina",
+      "title": "The effects of physical exercise in children with attention deficit hyperactivity disorder: a systematic review and meta-analysis of randomized control trials",
+      "year": 2015
+    },
+    {
+      "key": "Chen 2024",
+      "ref_no": 50,
+      "doi": "10.1016/j.jad.2024.02.092",
+      "journal": "J Affect Disord",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 25,
+        "n": 2188
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.39,
+          "ci_low": -0.51,
+          "ci_high": -0.26
+        }
+      ],
+      "fig3_anxiety_smd": {
+        "smd": -0.3,
+        "ci_low": -0.43,
+        "ci_high": -0.18
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Chen",
+      "title": "Effect of physical activity on anxiety, depression and obesity index in children and adolescents with obesity: a meta-analysis",
+      "year": 2024
+    },
+    {
+      "key": "Larun 2006",
+      "ref_no": 51,
+      "doi": "10.1002/14651858.CD004691.pub2",
+      "journal": "Cochrane Database Syst Rev",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 16,
+        "n": 1191
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.66,
+          "ci_low": -1.25,
+          "ci_high": -0.08
+        }
+      ],
+      "fig3_anxiety_smd": {
+        "smd": -0.48,
+        "ci_low": -0.97,
+        "ci_high": 0.01
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "Y",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "NA",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Moderate",
+      "first_author": "Larun",
+      "title": "Exercise in prevention and treatment of anxiety and depression among children and young people",
+      "year": 2006
+    },
+    {
+      "key": "Liu 2024",
+      "ref_no": 52,
+      "doi": "10.1001/jamapediatrics.2023.6251",
+      "journal": "JAMA Pediatr",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 76,
+        "n": 3007
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Liu",
+      "title": "Physical activity and mental health in children and adolescents with neurodevelopmental disorders: a systematic review and meta-analysis",
+      "year": 2024
+    },
+    {
+      "key": "Neill 2020",
+      "ref_no": 53,
+      "doi": "10.1016/j.mhpa.2020.100359",
+      "journal": "Ment Health Phys Act",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 13,
+        "n": 1928
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": 0.1,
+          "ci_low": -0.2,
+          "ci_high": 0.4
+        }
+      ],
+      "fig3_anxiety_smd": {
+        "smd": 0.04,
+        "ci_low": -0.2,
+        "ci_high": 0.28
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "Y",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "N",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Moderate",
+      "first_author": "Neill",
+      "title": "The effects of interventions with physical activity components on adolescent mental health: systematic review and meta-analysis",
+      "year": 2020
+    },
+    {
+      "key": "Oberste 2020",
+      "ref_no": 54,
+      "doi": "10.3389/fphys.2020.00185",
+      "journal": "Front Physiol",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 10,
+        "n": 491
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.47,
+          "ci_low": -0.7,
+          "ci_high": -0.24
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "N",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Oberste",
+      "title": "Physical activity for the treatment of adolescent depression: a systematic review and meta-analysis",
+      "year": 2020
+    },
+    {
+      "key": "Peng 2022",
+      "ref_no": 55,
+      "doi": "10.3389/fpsyg.2022.940977",
+      "journal": "Front Psychol",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 31,
+        "n": 1255
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.68,
+          "ci_low": -0.98,
+          "ci_high": -0.38
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "N",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Peng",
+      "title": "Meta-analysis and systematic review of physical activity on neurodevelopment disorders, depression, and obesity among children and adolescents",
+      "year": 2022
+    },
+    {
+      "key": "Radovic 2017",
+      "ref_no": 56,
+      "doi": "10.1111/jpc.13426",
+      "journal": "J Paediatr Child Health",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 8,
+        "n": 297
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.61,
+          "ci_low": -1.06,
+          "ci_high": -0.16
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "N",
+        "6": "N",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "Y",
+        "15": "NA",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Radovic",
+      "title": "Should we recommend exercise to adolescents with depressive symptoms? A meta-analysis",
+      "year": 2017
+    },
+    {
+      "key": "Recchia 2023",
+      "ref_no": 57,
+      "doi": "10.1001/jamapediatrics.2022.5090",
+      "journal": "JAMA Pediatr",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 21,
+        "n": 2441
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.29,
+          "ci_low": -0.47,
+          "ci_high": -0.1
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Recchia",
+      "title": "Physical activity interventions to alleviate depressive symptoms in children and adolescents: a systematic review and meta-analysis",
+      "year": 2023
+    },
+    {
+      "key": "Sun 2024",
+      "ref_no": 58,
+      "doi": "10.1111/cch.13150",
+      "journal": "Child Care Health Dev",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 18,
+        "n": 627
+      },
+      "outcomes": [
+        "dep",
+        "anx"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -1.67,
+          "ci_low": -2.87,
+          "ci_high": -0.47
+        }
+      ],
+      "fig3_anxiety_smd": {
+        "smd": -0.22,
+        "ci_low": -0.76,
+        "ci_high": 0.32
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Sun",
+      "title": "Structured physical exercise interventions and children and adolescents with attention deficit hyperactivity disorder: a systematic review and meta-analysis",
+      "year": 2024
+    },
+    {
+      "key": "Sun 2022",
+      "ref_no": 59,
+      "doi": "10.1016/j.psychres.2022.114509",
+      "journal": "Psychiatry Res",
+      "pmid": null,
+      "open_access": "check",
+      "table1_review_total": {
+        "k": 15,
+        "n": 734
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.72,
+          "ci_low": -1.55,
+          "ci_high": 0.11
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "N",
+        "13": "Y",
+        "14": "Y",
+        "15": "NA",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Sun",
+      "title": "Effects of physical exercise on attention deficit and other major symptoms in children with ADHD: a meta-analysis",
+      "year": 2022
+    },
+    {
+      "key": "Wang 2022",
+      "ref_no": 60,
+      "doi": "10.1186/s13034-022-00453-2",
+      "journal": "Child Adolesc Psychiatry Ment Health",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 15,
+        "n": 1331
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": "Depressive symptoms",
+          "smd": -0.67,
+          "ci_low": -1.01,
+          "ci_high": -0.34
+        },
+        {
+          "label": "Depression",
+          "smd": -0.57,
+          "ci_low": -0.9,
+          "ci_high": -0.24
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Wang",
+      "title": "Systematic review and meta-analysis of the effects of exercise on depression in adolescents",
+      "year": 2022
+    },
+    {
+      "key": "Zang 2023",
+      "ref_no": 61,
+      "doi": "10.3389/fpubh.2023.1127255",
+      "journal": "Front Public Health",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 9,
+        "n": 371
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": 0.06,
+          "ci_low": -0.38,
+          "ci_high": 0.5
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "Y",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "NA",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Moderate",
+      "first_author": "Zang",
+      "title": "Effect of concurrent training on physical performance and quality of life in children with malignancy: a systematic review and meta-analysis",
+      "year": 2023
+    },
+    {
+      "key": "Zhang 2022 (depression)",
+      "ref_no": 62,
+      "doi": "10.3389/fpsyg.2022.974382",
+      "journal": "Front Psychol",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 13,
+        "n": 433
+      },
+      "outcomes": [
+        "dep"
+      ],
+      "fig2_depression_smd": [
+        {
+          "label": null,
+          "smd": -0.65,
+          "ci_low": -1.03,
+          "ci_high": -0.27
+        }
+      ],
+      "fig3_anxiety_smd": null,
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "Y",
+        "3": "Y",
+        "4": "Y",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "PY",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Low",
+      "first_author": "Zhang",
+      "title": "The strategies of exercise intervention for adolescent depression: a meta-analysis of randomized controlled trials",
+      "year": 2022
+    },
+    {
+      "key": "Zhang 2022 (test anxiety)",
+      "ref_no": 63,
+      "doi": "10.3390/ijerph19116709",
+      "journal": "Int J Environ Res Public Health",
+      "pmid": null,
+      "open_access": "likely (fully-OA publisher)",
+      "table1_review_total": {
+        "k": 16,
+        "n": 1757
+      },
+      "outcomes": [
+        "anx"
+      ],
+      "fig2_depression_smd": [],
+      "fig3_anxiety_smd": {
+        "smd": -0.75,
+        "ci_low": -1.15,
+        "ci_high": -0.35
+      },
+      "amstar2_items_tableS3": {
+        "1": "Y",
+        "2": "N",
+        "3": "Y",
+        "4": "PY",
+        "5": "Y",
+        "6": "Y",
+        "7": "N",
+        "8": "Y",
+        "9": "Y",
+        "10": "N",
+        "11": "Y",
+        "12": "Y",
+        "13": "Y",
+        "14": "Y",
+        "15": "Y",
+        "16": "Y"
+      },
+      "amstar2_overall_tableS3": "Critically low",
+      "first_author": "Zhang",
+      "title": "Effects of exercise intervention on students' test anxiety: a systematic review with a meta-analysis",
+      "year": 2022
+    }
+  ]
+}

@@ -1,0 +1,1517 @@
+{
+  "meta": {
+    "source": "reference",
+    "note": "LLM 추출이 아니라 Singh 2026(CC BY)에서 옮긴 기준값입니다.",
+    "model": null,
+    "prompt_version": null,
+    "created": "2026-11-14"
+  },
+  "pico": {
+    "question": "운동(신체활동) 중재는 아동·청소년의 우울 증상을 줄이는가?",
+    "P": "5~18세 아동·청소년 (건강군 및 임상군)",
+    "I": "운동 중재 (유산소, 근력, 복합, 심신 운동 등)",
+    "C": "중재 없음, 대기, 일반 관리, 비운동 대조",
+    "O": "Depressive symptoms (depression)",
+    "query": ""
+  },
+  "demo_query": "(\"Exercise\"[Mesh] OR \"Sports\"[Mesh] OR exercis*[tiab] OR \"physical activity\"[tiab] OR sport*[tiab] OR yoga[tiab] OR \"resistance training\"[tiab] OR \"aerobic training\"[tiab]) AND (\"Depression\"[Mesh] OR depress*[tiab]) AND (\"Child\"[Mesh] OR \"Adolescent\"[Mesh] OR child*[tiab] OR adolescen*[tiab] OR youth[tiab] OR student*[tiab]) AND (meta-analysis[pt] OR \"systematic review\"[pt] OR meta-analy*[tiab]) AND english[la] AND (\"1900/01/01\"[dp] : \"2024/04/08\"[dp])",
+  "search": {
+    "query": "",
+    "records_identified": 21,
+    "duplicates_removed": 0,
+    "other_sources": 0,
+    "note": "데모: 참고 논문(Singh 2026)이 포함한 리뷰 21편을 검색 결과로 불러왔습니다. 실제 PubMed 검색 결과가 아닙니다."
+  },
+  "papers": [
+    {
+      "uid": "10.1186/s40798-020-00254-x",
+      "pmid": null,
+      "doi": "10.1186/s40798-020-00254-x",
+      "title": "School-related physical activity interventions and mental health among children: a systematic review and meta-analysis",
+      "first_author": "Andermo",
+      "year": 2020,
+      "journal": "Sports Med Open",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms",
+          "evidence": "[기준값] Singh 2026 Figure 2: Andermo 2020 -0.01 [-0.20, 0.19]",
+          "page": null
+        },
+        "k": {
+          "value": 31,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 31편, 총 16,089명",
+          "page": null
+        },
+        "n": {
+          "value": 16089,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 31편, 총 16,089명",
+          "page": null
+        },
+        "population": {
+          "value": "School children",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Age 6–19 y; school-based mixed-mode physical activity (active breaks, policies, environment); low to vigorous; 4 wk–1 y; 15–45 min, 2–5×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": -0.01,
+          "evidence": "[기준값] Singh 2026 Figure 2: Andermo 2020 -0.01 [-0.20, 0.19]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -0.2,
+          "evidence": "[기준값] Singh 2026 Figure 2: Andermo 2020 -0.01 [-0.20, 0.19]",
+          "page": null
+        },
+        "ci_high": {
+          "value": 0.19,
+          "evidence": "[기준값] Singh 2026 Figure 2: Andermo 2020 -0.01 [-0.20, 0.19]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: Y",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: Y",
+            "page": null
+          },
+          "7": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: N",
+            "page": null
+          },
+          "8": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: Y",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: N",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: Y",
+            "page": null
+          },
+          "15": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: Y",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ]
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1111/camh.12438",
+      "pmid": null,
+      "doi": "10.1111/camh.12438",
+      "title": "Review: exercise for depression in children and adolescents - a systematic review and meta-analysis",
+      "first_author": "Axelsdottir",
+      "year": 2021,
+      "journal": "Child Adolesc Ment Health",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1017/S0033291717002653",
+      "pmid": null,
+      "doi": "10.1017/S0033291717002653",
+      "title": "Treating depression with physical activity in adolescents and young adults: a systematic review and meta-analysis of randomised controlled trials",
+      "first_author": "Bailey",
+      "year": 2018,
+      "journal": "Psychol Med",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.3390/ijerph18189477",
+      "pmid": null,
+      "doi": "10.3390/ijerph18189477",
+      "title": "Effects of training with different modes of strength intervention on psychosocial disorders in adolescents: a systematic review and meta-analysis",
+      "first_author": "Barahona-Fuentes",
+      "year": 2021,
+      "journal": "Int J Environ Res Public Health",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms (resistance exercise)",
+          "evidence": "[기준값] Singh 2026 Figure 2: Barahona-Fuentes 2021 (Resistance exercise) -1.61 [-2.54, -0.68]",
+          "page": null
+        },
+        "k": {
+          "value": 9,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 9편, 총 768명",
+          "page": null
+        },
+        "n": {
+          "value": 768,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 9편, 총 768명",
+          "page": null
+        },
+        "population": {
+          "value": "Adolescents with psychosocial disorders",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Mean age 11.0–17.9 y; mixed-mode strength training (aerobic, HIIT, CrossFit, resistance, Pilates); low to high; 4–22 wk; 20–60 min, 1–5×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": -1.61,
+          "evidence": "[기준값] Singh 2026 Figure 2: Barahona-Fuentes 2021 (Resistance exercise) -1.61 [-2.54, -0.68]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -2.54,
+          "evidence": "[기준값] Singh 2026 Figure 2: Barahona-Fuentes 2021 (Resistance exercise) -1.61 [-2.54, -0.68]",
+          "page": null
+        },
+        "ci_high": {
+          "value": -0.68,
+          "evidence": "[기준값] Singh 2026 Figure 2: Barahona-Fuentes 2021 (Resistance exercise) -1.61 [-2.54, -0.68]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: Y",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: Y",
+            "page": null
+          },
+          "7": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: N",
+            "page": null
+          },
+          "8": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: Y",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: N",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: N",
+            "page": null
+          },
+          "15": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: Y",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ]
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1007/s40279-012-0015-8",
+      "pmid": null,
+      "doi": "10.1007/s40279-012-0015-8",
+      "title": "Physical activity interventions and depression in children and adolescents: a systematic review and meta-analysis",
+      "first_author": "Brown",
+      "year": 2013,
+      "journal": "Sports Med",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1016/j.jaac.2016.04.016",
+      "pmid": null,
+      "doi": "10.1016/j.jaac.2016.04.016",
+      "title": "The effect of exercise on depressive symptoms in adolescents: a systematic review and meta-analysis",
+      "first_author": "Carter",
+      "year": 2016,
+      "journal": "J Am Acad Child Adolesc Psychiatry",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1111/cch.12255",
+      "pmid": null,
+      "doi": "10.1111/cch.12255",
+      "title": "The effects of physical exercise in children with attention deficit hyperactivity disorder: a systematic review and meta-analysis of randomized control trials",
+      "first_author": "Cerrillo-Urbina",
+      "year": 2015,
+      "journal": "Child Care Health Dev",
+      "source": "search",
+      "included": false,
+      "exclude_reason": "결과 불일치 (우울 결과 없음)",
+      "demo_include": false,
+      "fulltext": "pending",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1016/j.jad.2024.02.092",
+      "pmid": null,
+      "doi": "10.1016/j.jad.2024.02.092",
+      "title": "Effect of physical activity on anxiety, depression and obesity index in children and adolescents with obesity: a meta-analysis",
+      "first_author": "Chen",
+      "year": 2024,
+      "journal": "J Affect Disord",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1002/14651858.CD004691.pub2",
+      "pmid": null,
+      "doi": "10.1002/14651858.CD004691.pub2",
+      "title": "Exercise in prevention and treatment of anxiety and depression among children and young people",
+      "first_author": "Larun",
+      "year": 2006,
+      "journal": "Cochrane Database Syst Rev",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1001/jamapediatrics.2023.6251",
+      "pmid": null,
+      "doi": "10.1001/jamapediatrics.2023.6251",
+      "title": "Physical activity and mental health in children and adolescents with neurodevelopmental disorders: a systematic review and meta-analysis",
+      "first_author": "Liu",
+      "year": 2024,
+      "journal": "JAMA Pediatr",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1016/j.mhpa.2020.100359",
+      "pmid": null,
+      "doi": "10.1016/j.mhpa.2020.100359",
+      "title": "The effects of interventions with physical activity components on adolescent mental health: systematic review and meta-analysis",
+      "first_author": "Neill",
+      "year": 2020,
+      "journal": "Ment Health Phys Act",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.3389/fphys.2020.00185",
+      "pmid": null,
+      "doi": "10.3389/fphys.2020.00185",
+      "title": "Physical activity for the treatment of adolescent depression: a systematic review and meta-analysis",
+      "first_author": "Oberste",
+      "year": 2020,
+      "journal": "Front Physiol",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms",
+          "evidence": "[기준값] Singh 2026 Figure 2: Oberste 2020 -0.47 [-0.70, -0.24]",
+          "page": null
+        },
+        "k": {
+          "value": 10,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 10편, 총 491명",
+          "page": null
+        },
+        "n": {
+          "value": 491,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 10편, 총 491명",
+          "page": null
+        },
+        "population": {
+          "value": "Adolescents with depression",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Age 12–18 y; mixed mode (aerobic, resistance, circuit, sports); low to vigorous; 6–12 wk; 20–90 min, 2–4×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": -0.47,
+          "evidence": "[기준값] Singh 2026 Figure 2: Oberste 2020 -0.47 [-0.70, -0.24]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -0.7,
+          "evidence": "[기준값] Singh 2026 Figure 2: Oberste 2020 -0.47 [-0.70, -0.24]",
+          "page": null
+        },
+        "ci_high": {
+          "value": -0.24,
+          "evidence": "[기준값] Singh 2026 Figure 2: Oberste 2020 -0.47 [-0.70, -0.24]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: PY",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: Y",
+            "page": null
+          },
+          "7": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: N",
+            "page": null
+          },
+          "8": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: Y",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: Y",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: N",
+            "page": null
+          },
+          "15": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: Y",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ]
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.3389/fpsyg.2022.940977",
+      "pmid": null,
+      "doi": "10.3389/fpsyg.2022.940977",
+      "title": "Meta-analysis and systematic review of physical activity on neurodevelopment disorders, depression, and obesity among children and adolescents",
+      "first_author": "Peng",
+      "year": 2022,
+      "journal": "Front Psychol",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms",
+          "evidence": "[기준값] Singh 2026 Figure 2: Peng 2022 -0.68 [-0.98, -0.38]",
+          "page": null
+        },
+        "k": {
+          "value": 31,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 31편, 총 1,255명",
+          "page": null
+        },
+        "n": {
+          "value": 1255,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 31편, 총 1,255명",
+          "page": null
+        },
+        "population": {
+          "value": "Children and adolescents with neurodevelopmental disorders, depression, or obesity",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Mean age 6.9–16.9 y; mixed mode (aerobic, team sports, pool, resistance, yoga); low to vigorous; 6–78 wk; 15–90 min, 1–5×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": -0.68,
+          "evidence": "[기준값] Singh 2026 Figure 2: Peng 2022 -0.68 [-0.98, -0.38]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -0.98,
+          "evidence": "[기준값] Singh 2026 Figure 2: Peng 2022 -0.68 [-0.98, -0.38]",
+          "page": null
+        },
+        "ci_high": {
+          "value": -0.38,
+          "evidence": "[기준값] Singh 2026 Figure 2: Peng 2022 -0.68 [-0.98, -0.38]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: PY",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: N",
+            "page": null
+          },
+          "7": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: N",
+            "page": null
+          },
+          "8": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: PY",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: Y",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: Y",
+            "page": null
+          },
+          "15": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: Y",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ]
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1111/jpc.13426",
+      "pmid": null,
+      "doi": "10.1111/jpc.13426",
+      "title": "Should we recommend exercise to adolescents with depressive symptoms? A meta-analysis",
+      "first_author": "Radovic",
+      "year": 2017,
+      "journal": "J Paediatr Child Health",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1001/jamapediatrics.2022.5090",
+      "pmid": null,
+      "doi": "10.1001/jamapediatrics.2022.5090",
+      "title": "Physical activity interventions to alleviate depressive symptoms in children and adolescents: a systematic review and meta-analysis",
+      "first_author": "Recchia",
+      "year": 2023,
+      "journal": "JAMA Pediatr",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1111/cch.13150",
+      "pmid": null,
+      "doi": "10.1111/cch.13150",
+      "title": "Structured physical exercise interventions and children and adolescents with attention deficit hyperactivity disorder: a systematic review and meta-analysis",
+      "first_author": "Sun",
+      "year": 2024,
+      "journal": "Child Care Health Dev",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1016/j.psychres.2022.114509",
+      "pmid": null,
+      "doi": "10.1016/j.psychres.2022.114509",
+      "title": "Effects of physical exercise on attention deficit and other major symptoms in children with ADHD: a meta-analysis",
+      "first_author": "Sun",
+      "year": 2022,
+      "journal": "Psychiatry Res",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.1186/s13034-022-00453-2",
+      "pmid": null,
+      "doi": "10.1186/s13034-022-00453-2",
+      "title": "Systematic review and meta-analysis of the effects of exercise on depression in adolescents",
+      "first_author": "Wang",
+      "year": 2022,
+      "journal": "Child Adolesc Psychiatry Ment Health",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms",
+          "evidence": "[기준값] Singh 2026 Figure 2: Wang 2022 (Depressive symptoms) -0.67 [-1.01, -0.34]",
+          "page": null
+        },
+        "k": {
+          "value": 15,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 15편, 총 1,331명",
+          "page": null
+        },
+        "n": {
+          "value": 1331,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 15편, 총 1,331명",
+          "page": null
+        },
+        "population": {
+          "value": "Adolescents with depression",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Mean age 15.9 y; mixed mode (aerobic, resistance, yoga, dance, cycling); low to vigorous; 6–40 wk; 30–120 min, 2–4×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": -0.67,
+          "evidence": "[기준값] Singh 2026 Figure 2: Wang 2022 (Depressive symptoms) -0.67 [-1.01, -0.34]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -1.01,
+          "evidence": "[기준값] Singh 2026 Figure 2: Wang 2022 (Depressive symptoms) -0.67 [-1.01, -0.34]",
+          "page": null
+        },
+        "ci_high": {
+          "value": -0.34,
+          "evidence": "[기준값] Singh 2026 Figure 2: Wang 2022 (Depressive symptoms) -0.67 [-1.01, -0.34]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: PY",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: Y",
+            "page": null
+          },
+          "7": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: N",
+            "page": null
+          },
+          "8": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: Y",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: Y",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: Y",
+            "page": null
+          },
+          "15": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: Y",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ]
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.3389/fpubh.2023.1127255",
+      "pmid": null,
+      "doi": "10.3389/fpubh.2023.1127255",
+      "title": "Effect of concurrent training on physical performance and quality of life in children with malignancy: a systematic review and meta-analysis",
+      "first_author": "Zang",
+      "year": 2023,
+      "journal": "Front Public Health",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms",
+          "evidence": "[기준값] Singh 2026 Figure 2: Zang 2023 0.06 [-0.38, 0.50]",
+          "page": null
+        },
+        "k": {
+          "value": 9,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 9편, 총 371명",
+          "page": null
+        },
+        "n": {
+          "value": 371,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 9편, 총 371명",
+          "page": null
+        },
+        "population": {
+          "value": "Children with paediatric cancer",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Mean age 7.6–13.4 y; mixed mode (aerobic, resistance, sports); low to vigorous; 6–26 wk; 15–60 min, 2–5×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": 0.06,
+          "evidence": "[기준값] Singh 2026 Figure 2: Zang 2023 0.06 [-0.38, 0.50]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -0.38,
+          "evidence": "[기준값] Singh 2026 Figure 2: Zang 2023 0.06 [-0.38, 0.50]",
+          "page": null
+        },
+        "ci_high": {
+          "value": 0.5,
+          "evidence": "[기준값] Singh 2026 Figure 2: Zang 2023 0.06 [-0.38, 0.50]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: PY",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: Y",
+            "page": null
+          },
+          "7": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: Y",
+            "page": null
+          },
+          "8": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: PY",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: Y",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: Y",
+            "page": null
+          },
+          "15": {
+            "answer": null,
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: NA — Singh은 연구 10편 미만이라 NA로 표기. 저자가 직접 고르세요.",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ],
+        "_mock_fail_once": true
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.3389/fpsyg.2022.974382",
+      "pmid": null,
+      "doi": "10.3389/fpsyg.2022.974382",
+      "title": "The strategies of exercise intervention for adolescent depression: a meta-analysis of randomized controlled trials",
+      "first_author": "Zhang",
+      "year": 2022,
+      "journal": "Front Psychol",
+      "source": "search",
+      "included": true,
+      "exclude_reason": null,
+      "demo_include": true,
+      "fulltext": "missing",
+      "stored": {
+        "outcome": {
+          "value": "Depressive symptoms",
+          "evidence": "[기준값] Singh 2026 Figure 2: Zhang 2022 (depression) -0.65 [-1.03, -0.27]",
+          "page": null
+        },
+        "k": {
+          "value": 13,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 13편, 총 433명",
+          "page": null
+        },
+        "n": {
+          "value": 433,
+          "evidence": "[기준값] Singh 2026 Table 1: 연구 13편, 총 433명",
+          "page": null
+        },
+        "population": {
+          "value": "Adolescents with depression",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "design": {
+          "value": "RCT",
+          "evidence": "[기준값] Singh 2026은 RCT 메타분석만 포함",
+          "page": null
+        },
+        "characteristics": {
+          "value": "Mean age 10–18 y; mixed mode (aerobic, resistance, sports, yoga); low to vigorous; 6–18 wk; 20–60 min, 2–4×/wk",
+          "evidence": "[기준값] Singh 2026 Table 1",
+          "page": null
+        },
+        "effect_measure": {
+          "value": "SMD",
+          "evidence": "[기준값] Singh 2026은 모든 결과를 SMD로 합성",
+          "page": null
+        },
+        "estimate": {
+          "value": -0.65,
+          "evidence": "[기준값] Singh 2026 Figure 2: Zhang 2022 (depression) -0.65 [-1.03, -0.27]",
+          "page": null
+        },
+        "ci_low": {
+          "value": -1.03,
+          "evidence": "[기준값] Singh 2026 Figure 2: Zhang 2022 (depression) -0.65 [-1.03, -0.27]",
+          "page": null
+        },
+        "ci_high": {
+          "value": -0.27,
+          "evidence": "[기준값] Singh 2026 Figure 2: Zhang 2022 (depression) -0.65 [-1.03, -0.27]",
+          "page": null
+        },
+        "i2": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "p_het": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "model": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "egger_p": {
+          "value": null,
+          "evidence": null,
+          "page": null
+        },
+        "lower_favours_intervention": true,
+        "amstar": {
+          "1": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 1: Y",
+            "page": null
+          },
+          "2": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 2: Y",
+            "page": null
+          },
+          "3": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 3: Y",
+            "page": null
+          },
+          "4": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 4: Y",
+            "page": null
+          },
+          "5": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 5: Y",
+            "page": null
+          },
+          "6": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 6: Y",
+            "page": null
+          },
+          "7": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 7: N",
+            "page": null
+          },
+          "8": {
+            "answer": "Partial Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 8: PY",
+            "page": null
+          },
+          "9": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 9: Y",
+            "page": null
+          },
+          "10": {
+            "answer": "No",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 10: N",
+            "page": null
+          },
+          "11": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 11: Y",
+            "page": null
+          },
+          "12": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 12: Y",
+            "page": null
+          },
+          "13": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 13: Y",
+            "page": null
+          },
+          "14": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 14: Y",
+            "page": null
+          },
+          "15": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 15: Y",
+            "page": null
+          },
+          "16": {
+            "answer": "Yes",
+            "evidence": "[기준값] Singh 2026 보충 Table S3 문항 16: Y",
+            "page": null
+          }
+        },
+        "_warnings": [
+          "No. of studies와 Total sample은 이 분석이 아니라 리뷰 전체 기준(Singh Table 1)입니다.",
+          "I²와 이질성 p는 Singh 2026에 리뷰별로 나와 있지 않아 비워 두었습니다. 원문에서 확인하세요."
+        ]
+      },
+      "extraction": null,
+      "reviewed": false
+    },
+    {
+      "uid": "10.3390/ijerph19116709",
+      "pmid": null,
+      "doi": "10.3390/ijerph19116709",
+      "title": "Effects of exercise intervention on students’ test anxiety: a systematic review with a meta-analysis",
+      "first_author": "Zhang",
+      "year": 2022,
+      "journal": "Int J Environ Res Public Health",
+      "source": "search",
+      "included": false,
+      "exclude_reason": "결과 불일치 (우울 결과 없음)",
+      "demo_include": false,
+      "fulltext": "pending",
+      "stored": null,
+      "extraction": null,
+      "reviewed": false
+    }
+  ],
+  "doi_lookup": {
+    "10.1016/j.jaac.2023.04.017": {
+      "title": "Umbrella systematic review and meta-analysis: physical activity as an effective therapeutic strategy for improving psychosocial outcomes in children and adolescents",
+      "first_author": "Purgato",
+      "year": 2024,
+      "journal": "J Am Acad Child Adolesc Psychiatry"
+    },
+    "10.1136/bjsports-2022-106195": {
+      "title": "Effectiveness of physical activity interventions for improving depression, anxiety and distress: an overview of systematic reviews",
+      "first_author": "Singh",
+      "year": 2023,
+      "journal": "Br J Sports Med"
+    },
+    "10.1016/j.pmedr.2021.101687": {
+      "title": "Impact of organized activities on mental health in children and adolescents: an umbrella review",
+      "first_author": "Boelens",
+      "year": 2022,
+      "journal": "Prev Med Rep"
+    },
+    "10.1001/jamapsychiatry.2020.0164": {
+      "title": "Psychotherapy for depression across different age groups: a systematic review and meta-analysis",
+      "first_author": "Cuijpers",
+      "year": 2020,
+      "journal": "JAMA Psychiatry"
+    }
+  }
+}
